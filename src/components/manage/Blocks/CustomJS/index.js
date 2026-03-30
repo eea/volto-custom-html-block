@@ -3,14 +3,14 @@ import CustomJSView from './CustomJSView';
 import CustomJSEdit from './CustomJSEdit';
 
 const config = (config) => {
-  config.blocks.blocksConfig.biseCustomJS = {
-    id: 'biseCustomJS',
+  config.blocks.blocksConfig.customJS = {
+    id: 'customJS',
     title: 'Custom JS',
     icon: codeSVG,
     group: 'custom_addons',
     view: CustomJSView,
     edit: CustomJSEdit,
-    restricted: false,
+    restricted: true,
     mostUsed: false,
     blockHasOwnFocusManagement: false,
     sidebarTab: 1,
