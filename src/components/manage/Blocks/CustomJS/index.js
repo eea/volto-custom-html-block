@@ -10,7 +10,7 @@ const config = (config) => {
     group: 'custom_addons',
     view: CustomJSView,
     edit: CustomJSEdit,
-    restricted: false,
+    restricted: true,
     mostUsed: false,
     blockHasOwnFocusManagement: false,
     sidebarTab: 1,
