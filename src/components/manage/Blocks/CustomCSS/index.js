@@ -3,8 +3,8 @@ import CustomCSSView from './CustomCSSView';
 import CustomCSSEdit from './CustomCSSEdit';
 
 const config = (config) => {
-  config.blocks.blocksConfig.biseCustomCSS = {
-    id: 'biseCustomCSS',
+  config.blocks.blocksConfig.customCSS = {
+    id: 'customCSS',
     title: 'Custom CSS',
     icon: codeSVG,
     group: 'custom_addons',
